@@ -1,5 +1,44 @@
-Header
+Built-in functions
 ======
+
+Arrays
+------
+
+.. js:function:: append(a, b)
+
+
+Probability
+-----------
+
+.. js:function:: MAP(dist)
+
+.. js:function:: entropy(dist)
+
+.. js:function:: expectation(dist[, func])
+
+
+Miscellaneous
+-------------
+
+.. js:function:: isEven(x)
+
+   Returns ``true`` if the number is even, ``false`` otherwise.
+
+.. js:function:: isOdd(x)
+
+   Returns ``true`` if the number is odd, ``false`` otherwise.
+
+.. js:function:: idF(x)
+
+   The identity function. Returns the argument it is passed.
+
+.. js:function:: falseF()
+
+   A function that returns ``false``.
+
+.. js:function:: trueF()
+
+   A function that returns ``true``.
 
 .. js:function:: display(val)
 

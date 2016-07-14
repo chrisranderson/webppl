@@ -3,6 +3,15 @@
 Distributions
 =============
 
+Almost all of these distributions have corresponding lowercase convenience functions for sampling. For example, instead of::
+
+    sample(MultivariateBernoulli({ps: Vector([.5, .1])}))
+
+You can call::
+
+     multivariateBernoulli(Vector([.5, .1])) 
+
+
 .. js:function:: Bernoulli({p: ...})
 
   * p: success probability *(in [0,1])*
