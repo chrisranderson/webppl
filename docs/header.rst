@@ -152,8 +152,11 @@ Math
 
 .. js:function:: listVar(xs [, mu])
 
-   Returns the variance of ``xs``.
+   Returns the variance of ``xs`` from ``mu``.
 
+.. js:function:: normalize(xs)
+
+   Returns each value in ``xs`` divided by ``sum(xs)``. The resulting array sums to 1.
 
 Probability
 -----------
